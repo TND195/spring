@@ -3,5 +3,5 @@ server:
 
 secure:
   ignored:
-    urls:
-      - /register
+    urls: #安全路径白名单
+      - /login
